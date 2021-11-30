@@ -1,0 +1,24 @@
+.project-container{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .project-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .project-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

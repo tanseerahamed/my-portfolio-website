@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "BIKESMITH - A Niche Product Website",
+        "description": "Features: Focus: focused on bicycle related services. This is a full-stack website using React, firebase, react router, node, express, mongo dB etc. You will get various cycles directly from our website. An Admin can add & remove products, manage orders.",
+        "img": " https://i.ibb.co/Pz1F2xy/image-1.png ",
+        "website": "https://niche-website-client-sid-4533f.web.app/"
+    },
+    {
+        "id": 2,
+        "name": "SHEBA - A Delivery Service-Related Website",
+        "description": " Features: Focus: focused on bicycle related services. This is a full-stack website using React, firebase, react router, node, express, mongo dB etc. You will get various cycles directly from our website. An Admin can add & remove products, manage orders. ",
+        "img": " https://i.ibb.co/KwbQ4dz/image-2.png ",
+        "website": "https://delivary-website-client-side.web.app/"
+    },
+    {
+        "id": 3,
+        "name": "LIFESPRING – Mental Health Care Related Website",
+        "description": "Features: Focus: focused on mental health care related services. This is a full-stack website using React, firebase, react router, node, express, mongodb etc. You will get various mental health care related services directly from our website. Find Mental Health care related services from home at ease. ",
+        "img": " https://i.ibb.co/7pQ1pHH/image-3.png ",
+        "website": "https://lifespring-healthcare.web.app/"
+    },
+    {
+        "id": 4,
+        "name": "LIFESPRING – Mental Health Care Related Website",
+        "description": " Features: Focus: focused on mental health care related services. This is a full-stack website using React, firebase, react router, node, express, mongodb etc. You will get various mental health care related services directly from our website. Find Mental Health care related services from home at ease.",
+        "img": "https://i.ibb.co/7pQ1pHH/image-3.png",
+        "website": "https://lifespring-healthcare.web.app/"
+    },
+    {
+        "id": 5,
+        "name": "SHEBA - A Delivery Service-Related Website",
+        "description": " Features: Focus: focused on bicycle related services. This is a full-stack website using React, firebase, react router, node, express, mongo dB etc. You will get various cycles directly from our website. An Admin can add & remove products, manage orders. ",
+        "img": "https://i.ibb.co/KwbQ4dz/image-2.png",
+        "website": "https://delivary-website-client-side.web.app/"
+    },
+    {
+        "id": 6,
+        "name": "BIKESMITH - A Niche Product Website",
+        "description": "Features: Focus: focused on bicycle related services. This is a full-stack website using React, firebase, react router, node, express, mongo dB etc. You will get various cycles directly from our website. An Admin can add & remove products, manage orders.",
+        "img": " https://i.ibb.co/Pz1F2xy/image-1.png ",
+        "website": "https://niche-website-client-sid-4533f.web.app/"
+    }
+]
