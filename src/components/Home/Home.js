@@ -4,12 +4,28 @@ import { Card, CardGroup} from 'react-bootstrap';
 import firstImage from "../../images/image-1.png";
 import secondImage from "../../images/image-2.png";
 import thirdImage from "../../images/image-3.png";
+import fourthImage from "../../images/my-bg.png";
 import { Link } from 'react-router-dom';
+import './Home.css';
 
 const Home = () => {
     return (
         <>
-        <h2 className='text-primary fw-bold mb-2 mt-2'>My Top Projects</h2>
+        
+        <section className="top-banner flexible-container">
+        <div className="half-width ms-5">
+            <h1 className="mt-5">Welcome To</h1>
+            <h1> <span className="orange-color">Tanseer Ahamed</span> World!</h1>
+            <h3 className="text-success m-3">Junior Web Developer</h3>
+            <p className="mb-3">I have extensive knowledge of HTML, JavaScript and CSS. Combined with my communication and problem-solving skills, I think I would be an excellent candidate for the Web Developer role at any company.</p>
+            <a className="link-button mt-3" href="https://www.linkedin.com/in/ahamedtanseer/" target="_blank" rel="noreferrer">HIRE ME</a>
+        </div>
+        <div>
+        <img className="half-width mt-5" src={fourthImage} alt="bg" />
+        </div>
+
+    </section>
+    <h2 className='text-primary fw-bold mb-2 mt-2'>My Top Projects</h2>
         <CardGroup>
         <Card>
             <Card.Img className="w-100" variant="top" src={firstImage} />

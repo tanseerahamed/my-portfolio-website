@@ -1,0 +1,31 @@
+  .flexible-container {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .top-banner {
+    background-image: url(../../images/top-banner.png);
+    background-repeat: no-repeat;
+  }
+  
+  .half-width {
+    /* padding-left: 2%; */
+    width: 50%;
+  }
+  .half-width img {
+    width: 80%;
+  }
+  
+  .orange-color {
+    color: orange;
+  }
+  
+    .link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+  }
+  

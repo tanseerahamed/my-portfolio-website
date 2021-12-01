@@ -10,6 +10,7 @@ import Header from './components/Home/Header/Header';
 import Footer from './components/Home/Footer/Footer';
 import {Routes} from 'react-router';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer></Footer>
       </Router>
